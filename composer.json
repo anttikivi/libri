@@ -1,0 +1,12 @@
+{
+    "name": "anttikivi/libri",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Antti Kivi",
+            "email": "antti@anttikivi.fi"
+        }
+    ],
+    "require": {}
+}
