@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Libri</title>
-        <link href="/app.css" rel="stylesheet">
+        <link href="/dist/app.css" rel="stylesheet">
     </head>
 
     <body class="h-full">
