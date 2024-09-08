@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "build": "tailwindcss -i ./styles/app.css -o ./public/dist/app.css --minify",
-    "dev": "concurrently 'tailwindcss -i ./styles/app.css -o ./public/dist/app.css --watch' 'php -S localhost:8000 -t ./public'"
+    "dev": "concurrently 'tailwindcss -i ./styles/app.css -o ./public/dist/app.css --watch' 'php -S localhost:8000 -t ./public'",
+    "lint": "composer run check"
   },
   "repository": {
     "type": "git",

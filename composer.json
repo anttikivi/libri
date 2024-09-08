@@ -19,7 +19,9 @@
         "squizlabs/php_codesniffer": "^3.10"
     },
     "scripts": {
+        "check": "composer run format:check && composer run lint",
         "format": "@php php-cs-fixer fix",
+        "format:check": "@php php-cs-fixer check",
         "lint": "@php phpcs --standard=PSR12 --extensions=php --ignore=./node_modules/*,./vendor/* ."
     }
 }
