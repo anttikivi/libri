@@ -14,6 +14,10 @@ function redirect(string $path)
 
 function view($path, $attributes = [])
 {
+    if (!isset($attributes['is_home'])) {
+        $attributes['is_home'] = false;
+    }
+
     extract($attributes);
 
     require base_path('views/' . $path);
