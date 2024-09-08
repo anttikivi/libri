@@ -6,7 +6,7 @@ use App\Middleware\Middleware;
 
 class Router
 {
-    protected $routes = [];
+    protected array $routes = [];
 
     public function add(string $method, string $uri, string $controller): Router
     {

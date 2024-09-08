@@ -4,11 +4,9 @@ namespace App;
 
 class App
 {
-    // @type \App\Container
-    protected static $container;
+    protected static Container $container;
 
-    // @param $container
-    public static function setContainer($container): void
+    public static function setContainer(Container $container): void
     {
         static::$container = $container;
     }
