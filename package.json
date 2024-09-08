@@ -1,0 +1,23 @@
+{
+  "name": "@anttikivi/libri",
+  "private": true,
+  "version": "0.1.0-dev",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anttikivi/libri.git"
+  },
+  "author": "Antti Kivi <antti@anttikivi.fi> (https://www.anttikivi.fi)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anttikivi/libri/issues"
+  },
+  "homepage": "https://github.com/anttikivi/libri#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  }
+}
