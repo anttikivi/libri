@@ -7,7 +7,7 @@ function base_path(string $path): string
 
 function redirect(string $path)
 {
-    header("location: {$path}");
+    header("Location: {$path}");
 
     exit;
 }
