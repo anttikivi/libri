@@ -1,5 +1,13 @@
 <?php
 
-$finder = (new PhpCsFixer\Finder())->in(__DIR__);
+use PhpCsFixer\Config;
+use PhpCsFixer\Finder;
 
-return (new PhpCsFixer\Config())->setRules(['@PSR12' => true])->setFinder($finder);
+$finder = (new Finder())->in(__DIR__);
+
+return (new Config())
+    ->setRules([
+        '@PER-CS' => true,
+        '@PHP82Migration' => true,
+    ])
+    ->setFinder($finder);

@@ -13,7 +13,7 @@ class App
         static::$container = $container;
     }
 
-    public static function container(): \App\Container
+    public static function container(): Container
     {
         return static::$container;
     }

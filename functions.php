@@ -8,7 +8,8 @@ function base_path(string $path): string
 function redirect(string $path)
 {
     header("location: {$path}");
-    exit();
+
+    exit;
 }
 
 function view($path, $attributes = [])

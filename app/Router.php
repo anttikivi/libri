@@ -14,7 +14,7 @@ class Router
             'uri' => $uri,
             'controller' => $controller,
             'method' => $method,
-            'middleware' => null
+            'middleware' => null,
         ];
 
         return $this;
@@ -49,6 +49,6 @@ class Router
 
         require base_path("views/{$code}.php");
 
-        die();
+        exit;
     }
 }
