@@ -1,5 +1,6 @@
 {
     "name": "anttikivi/libri",
+    "description": "A personal library system",
     "type": "project",
     "license": "MIT",
     "authors": [
