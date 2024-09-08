@@ -2,4 +2,6 @@
 
 namespace App;
 
-class Container {}
+class Container
+{
+}

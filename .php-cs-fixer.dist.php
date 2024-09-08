@@ -7,7 +7,7 @@ $finder = (new Finder())->in(__DIR__);
 
 return (new Config())
     ->setRules([
-        '@PER-CS' => true,
-        '@PHP82Migration' => true,
+        '@PSR12' => true,
+        // '@PHP82Migration' => true,
     ])
     ->setFinder($finder);

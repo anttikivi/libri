@@ -1,5 +1,5 @@
-<?php require('partials/head.php') ?>
+<?php require('partials/head.html') ?>
 
 <p>Hello, world!</p>
 
-<?php require('partials/footer.php') ?>
+<?php require('partials/footer.html') ?>
